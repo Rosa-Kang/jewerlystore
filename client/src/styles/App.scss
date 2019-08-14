@@ -1,0 +1,21 @@
+@import "./header";
+@import "./categories";
+@import "./collection";
+@import "./ourStore";
+@import "./hero";
+@import "./shop";
+@import "./earings";
+@import "./news";
+@import "./contact";
+@import "./footer";
+
+.app {
+  font-family: "Century Gothic", sans-serif;
+  color: #545454;
+  .ReactStickyHeader_root {
+    box-sizing: inherit;
+  }
+  .ReactStickyHeader_root * {
+    box-sizing: inherit;
+  }
+}

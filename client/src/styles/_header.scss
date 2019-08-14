@@ -1,0 +1,100 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    #icon {
+      width: 20px;
+      height: 20px;
+      padding-top: 18px;
+    }
+    &__logos {
+      display: flex;
+      flex-direction: row;
+      &--insta {
+        padding-right: 18px;
+      }
+    }
+    &__title {
+      img {
+        height: 48px;
+      }
+    }
+    &__right {
+      display: flex;
+      flex-direction: row;
+      &--search {
+        padding-right: 18px;
+      }
+    }
+  }
+  &__nav {
+    &__list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        padding: 20px;
+        margin: 0px;
+      }
+      a:hover {
+        color: #b1945c;
+      }
+    }
+
+    &__list--shop--dropDown {
+      display: none;
+      position: absolute;
+      width: 100%;
+      left: 0px;
+      top: 130px;
+      font-weight: 100;
+      height: 252px;
+      &--picture {
+        background-image: url(https://cdn.shopify.com/s/files/1/0081/5654/5088/files/emre-gencer-264429-unsplash_11f204d0-9350-472d-ac3c-d9cd74faa587_3000x.jpg?v=1543972655);
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 99.2%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        #text-top {
+          margin: 10px 0px;
+          color: white;
+        }
+        #text-bottom {
+          font-size: 0.76em;
+          font-weight: 400;
+          margin: 10px 0px;
+          padding: 16px 16px;
+          color: white;
+          border: 1px solid white;
+        }
+      }
+      #menu {
+        border: 1px solid #f9f9f9;
+        color: #545454;
+        font-weight: 400;
+        padding: 0px 76px;
+      }
+    }
+    &__list--shop {
+      &:hover {
+        .nav__list--shop--dropDown {
+          display: flex;
+          flex-direction: row;
+          background-color: #f9f9f9;
+        }
+      }
+    }
+  }
+}
