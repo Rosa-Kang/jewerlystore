@@ -11,7 +11,11 @@ function App() {
     <div className="app">
       <BrowserRouter basename="/jewerlystore">
         <Switch>
-          <Route path="/" exact component={MainCtrl} />
+          <Route
+            path={`${process.env.PUBLIC_URL}/`}
+            exact
+            component={MainCtrl}
+          />
           <Route path="/shop" component={Shop} />
           <Route path="/news" component={NewsCtrl} />
           <Route path="/contact" component={ContactCtrl} />
