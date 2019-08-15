@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jewerlystore/precache-manifest.7079cf417b00217eb2f48873e8525ed6.js"
+  "/jewerlystore/precache-manifest.aab8209a6abe7107f136aed8d73c779f.js"
 );
 
 self.addEventListener('message', (event) => {

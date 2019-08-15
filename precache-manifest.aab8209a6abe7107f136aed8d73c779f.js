@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94bf2bb519ccdd236c14f026db88ae93",
+    "revision": "05888f0a543f07241dde0760ada33346",
     "url": "/jewerlystore/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jewerlystore/static/css/2.7ec30cc4.chunk.css"
   },
   {
-    "revision": "d9535a7ed24c28065ba7",
+    "revision": "b3021fb8adae5e4dffd5",
     "url": "/jewerlystore/static/css/main.84fe3d88.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jewerlystore/static/js/2.99ef66cd.chunk.js"
   },
   {
-    "revision": "d9535a7ed24c28065ba7",
-    "url": "/jewerlystore/static/js/main.62deaa0a.chunk.js"
+    "revision": "b3021fb8adae5e4dffd5",
+    "url": "/jewerlystore/static/js/main.b325d987.chunk.js"
   },
   {
     "revision": "1b91c35d8fe2cfbfb6f8",
