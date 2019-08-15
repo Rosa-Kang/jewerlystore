@@ -98,7 +98,7 @@ export default class HeaderVer2 extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="contact" style={{ color: "#545454" }}>
+                  <a href="/jewerlystore/contact" style={{ color: "#545454" }}>
                     Contact
                   </a>
                 </li>
