@@ -69,7 +69,7 @@ export default class Header extends Component {
                   <img id="icon" src={this.state.pinterest} alt="pinterest" />
                 </a>
               </div>
-              <a href="/" className="start__header__title">
+              <a href="/jewerlystore" className="start__header__title">
                 <img src={this.state.effortless} alt="icon" />
               </a>
               <div className="start__header__right">
@@ -84,13 +84,13 @@ export default class Header extends Component {
             <div className="start__nav">
               <ul className="start__nav__list">
                 <li>
-                  <a href="/" style={{ color: this.state.color }}>
+                  <a href="/jewerlystore" style={{ color: this.state.color }}>
                     Home
                   </a>
                 </li>
                 <li className="start__nav__list--shop">
                   <a
-                    href="shop"
+                    href="/jewerlystore/shop"
                     className="btn"
                     style={{ color: this.state.color }}
                   >
@@ -134,12 +134,18 @@ export default class Header extends Component {
                   </div>
                 </li>
                 <li>
-                  <a href="news" style={{ color: this.state.color }}>
+                  <a
+                    href="/jewerlystore/news"
+                    style={{ color: this.state.color }}
+                  >
                     News
                   </a>
                 </li>
                 <li>
-                  <a href="contact" style={{ color: this.state.color }}>
+                  <a
+                    href="/jewerlystore/contact"
+                    style={{ color: this.state.color }}
+                  >
                     Contact
                   </a>
                 </li>

@@ -10,7 +10,7 @@ export default class Footer extends Component {
       <footer className="footer">
         <div className="footer__myfooter">
           <div className="footer__myfooter--logo">
-            <Link to="/">
+            <Link to="/jewerlystore">
               <img src={Logo} alt="logo" />
             </Link>
           </div>

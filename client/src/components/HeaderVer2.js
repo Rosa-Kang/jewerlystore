@@ -28,7 +28,7 @@ export default class HeaderVer2 extends Component {
                   <img id="icon" src={pintScr} alt="pinterest" />
                 </a>
               </div>
-              <a href="/" className="start__header__title">
+              <a href="/jewerlystore" className="start__header__title">
                 <img src={effortScr} alt="icon" />
               </a>
               <div className="start__header__right">
@@ -43,12 +43,16 @@ export default class HeaderVer2 extends Component {
             <div className="start__nav">
               <ul className="start__nav__list">
                 <li>
-                  <a href="/" style={{ color: "#545454" }}>
+                  <a href="/jewerlystore" style={{ color: "#545454" }}>
                     Home
                   </a>
                 </li>
                 <li className="start__nav__list--shop">
-                  <a href="shop" className="btn" style={{ color: "#545454" }}>
+                  <a
+                    href="/jewerlystore/shop"
+                    className="btn"
+                    style={{ color: "#545454" }}
+                  >
                     Shop
                   </a>
                   <div className="start__nav__list--shop--dropDown">
@@ -89,7 +93,7 @@ export default class HeaderVer2 extends Component {
                   </div>
                 </li>
                 <li>
-                  <a href="news" style={{ color: "#545454" }}>
+                  <a href="/jewerlystore/news" style={{ color: "#545454" }}>
                     News
                   </a>
                 </li>
