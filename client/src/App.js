@@ -11,14 +11,10 @@ function App() {
     <div className="app">
       <BrowserRouter basename="/jewerlystore">
         <Switch>
-          <Route
-            path={`${process.env.PUBLIC_URL}/`}
-            exact
-            component={MainCtrl}
-          />
-          <Route path="/shop" component={Shop} />
-          <Route path="/news" component={NewsCtrl} />
-          <Route path="/contact" component={ContactCtrl} />
+          <Route path="/jewerlystore" exact component={MainCtrl} />
+          <Route path="/jewerlystore/shop" component={Shop} />
+          <Route path="/jewerlystore/news" component={NewsCtrl} />
+          <Route path="/jewerlystore/contact" component={ContactCtrl} />
         </Switch>
       </BrowserRouter>
     </div>
